@@ -1,0 +1,24 @@
+curl -X POST "https://accounts.spotify.com/api/token" \
+ -H "Content-Type: application/x-www-form-urlencoded" \
+ -d "grant_type=client_credentials&client_id=fe3cc119e48d49cab2bb61e188fc2c15&client_secret=28f8a866df654e46bed7da7a2df544db"
+
+BQC75T_ycgXbbygUt9hcrmm5kcUDoFCkUCOHhaVq9h_eYYLmCT1XG9N051f5GxuNUAeUKc0lMs6PB0EwrOV_KMGPo5NQ5-te6D_Yc97zdC8S5xjPPEw
+
+
+curl "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02" \
+ -H "Authorization: Bearer  BQC75T_ycgXbbygUt9hcrmm5kcUDoFCkUCOHhaVq9h_eYYLmCT1XG9N051f5GxuNUAeUKc0lMs6PB0EwrOV_KMGPo5NQ5-te6D_Yc97zdC8S5xjPPEw"
+
+
+https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02?si=PBPcW0ebQdOFLU0K6sDR4Q
+
+https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B?si=fOgnmws1R8WKI3pMWrethg
+
+curl --request GET \
+--url 'https://api.spotify.com/v1/artists?ids=06HL4z0CvFAxyc27GXpf02,74KM79TiuVKeVCqs8QtB0B' \
+--header 'Authorization: Bearer BQCLRpcTosEtBS-TlU3e2NBqK6zZtzd5BogzDgx9D57ea3l-wxThirOdWcbbLgLgCLjNqVskfXJiEJgkX_GSkD85oYSfmj6XfZiZqDpuSOMh5xHUsxs'
+
+curl --request GET \
+--url https://api.spotify.com/v1/tracks/7DD7eSuYSC5xk2ArU62esN \
+--header 'Authorization: Bearer BQB_-n9jJa92zzFypLlW4adHG7I5jwgktKTr6A75SjDF9lp_UjTdScyLn9HqrcvdzeOmh8Hgy1RceY_mQkzMFhETw_HHc0s472--Bd57bULW71E9zp4'
+
+https://open.spotify.com/track/7DD7eSuYSC5xk2ArU62esN?si=6395c8ad197144b0
